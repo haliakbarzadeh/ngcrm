@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NgCrm.BasicInfoService.Domain\NgCrm.BasicInfoService.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Goldiran.Framework.Domain">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Goldiran.Framework.EFCore">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.EFCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

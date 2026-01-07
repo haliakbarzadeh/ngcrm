@@ -1,0 +1,250 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97EEB4E9-3063-42CF-9938-7712A67F58FD}|NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.application\\basicinfos\\commands\\updatebaseinfocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EEB4E9-3063-42CF-9938-7712A67F58FD}|NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj|solutionrelative:ngcrm.basicinfoservice.application\\basicinfos\\commands\\updatebaseinfocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EEB4E9-3063-42CF-9938-7712A67F58FD}|NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.application\\customers\\commands\\updatecustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EEB4E9-3063-42CF-9938-7712A67F58FD}|NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj|solutionrelative:ngcrm.basicinfoservice.application\\customers\\commands\\updatecustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EEB4E9-3063-42CF-9938-7712A67F58FD}|NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.application\\basicinfos\\commands\\deletebaseinfocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EEB4E9-3063-42CF-9938-7712A67F58FD}|NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj|solutionrelative:ngcrm.basicinfoservice.application\\basicinfos\\commands\\deletebaseinfocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EEB4E9-3063-42CF-9938-7712A67F58FD}|NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.application\\basicinfos\\commands\\createbaseinfocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EEB4E9-3063-42CF-9938-7712A67F58FD}|NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj|solutionrelative:ngcrm.basicinfoservice.application\\basicinfos\\commands\\createbaseinfocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}|NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.domain\\baseinfos\\entities\\baseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}|NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj|solutionrelative:ngcrm.basicinfoservice.domain\\baseinfos\\entities\\baseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}|NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.domain\\customers\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}|NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj|solutionrelative:ngcrm.basicinfoservice.domain\\customers\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}|NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.domain\\customers\\entities\\customeraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}|NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj|solutionrelative:ngcrm.basicinfoservice.domain\\customers\\entities\\customeraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EEB4E9-3063-42CF-9938-7712A67F58FD}|NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.application\\customers\\commands\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EEB4E9-3063-42CF-9938-7712A67F58FD}|NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj|solutionrelative:ngcrm.basicinfoservice.application\\customers\\commands\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}|NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.domain\\auditlogs\\queries\\getauditlogquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}|NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj|solutionrelative:ngcrm.basicinfoservice.domain\\auditlogs\\queries\\getauditlogquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97EEB4E9-3063-42CF-9938-7712A67F58FD}|NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.application\\customers\\commands\\createcustomercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97EEB4E9-3063-42CF-9938-7712A67F58FD}|NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj|solutionrelative:ngcrm.basicinfoservice.application\\customers\\commands\\createcustomercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}|NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.domain\\customers\\enums\\vipreasontypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}|NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj|solutionrelative:ngcrm.basicinfoservice.domain\\customers\\enums\\vipreasontypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1547014C-6C08-48B1-9D8D-34CE0730AB2C}|NgCrm.BasicInfoService.Api\\NgCrm.BasicInfoService.Api.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1547014C-6C08-48B1-9D8D-34CE0730AB2C}|NgCrm.BasicInfoService.Api\\NgCrm.BasicInfoService.Api.csproj|solutionrelative:ngcrm.basicinfoservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB65356A-5490-4091-9FF2-DE8290BACDFC}|NgCrm.BasicInfoService.DataAccess.Query\\NgCrm.BasicInfoService.DataAccess.Query.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.dataaccess.query\\locations\\locationqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB65356A-5490-4091-9FF2-DE8290BACDFC}|NgCrm.BasicInfoService.DataAccess.Query\\NgCrm.BasicInfoService.DataAccess.Query.csproj|solutionrelative:ngcrm.basicinfoservice.dataaccess.query\\locations\\locationqueryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1547014C-6C08-48B1-9D8D-34CE0730AB2C}|NgCrm.BasicInfoService.Api\\NgCrm.BasicInfoService.Api.csproj|d:\\akbarzadeh\\ng-crm\\projects\\ngcrm-basicinfoservice\\ngcrm.basicinfoservice.api\\controllers\\appcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1547014C-6C08-48B1-9D8D-34CE0730AB2C}|NgCrm.BasicInfoService.Api\\NgCrm.BasicInfoService.Api.csproj|solutionrelative:ngcrm.basicinfoservice.api\\controllers\\appcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateCustomerCommand.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\Customers\\Commands\\UpdateCustomerCommand.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.Application\\Customers\\Commands\\UpdateCustomerCommand.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\Customers\\Commands\\UpdateCustomerCommand.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.Application\\Customers\\Commands\\UpdateCustomerCommand.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T13:47:57.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateBaseInfoCommand.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\BasicInfos\\Commands\\UpdateBaseInfoCommand.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.Application\\BasicInfos\\Commands\\UpdateBaseInfoCommand.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\BasicInfos\\Commands\\UpdateBaseInfoCommand.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.Application\\BasicInfos\\Commands\\UpdateBaseInfoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:58:53.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteBaseInfoCommand.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\BasicInfos\\Commands\\DeleteBaseInfoCommand.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.Application\\BasicInfos\\Commands\\DeleteBaseInfoCommand.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\BasicInfos\\Commands\\DeleteBaseInfoCommand.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.Application\\BasicInfos\\Commands\\DeleteBaseInfoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:58:52.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateBaseInfoCommand.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\BasicInfos\\Commands\\CreateBaseInfoCommand.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.Application\\BasicInfos\\Commands\\CreateBaseInfoCommand.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\BasicInfos\\Commands\\CreateBaseInfoCommand.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.Application\\BasicInfos\\Commands\\CreateBaseInfoCommand.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:58:47.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseInfo.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\BaseInfos\\Entities\\BaseInfo.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.Domain\\BaseInfos\\Entities\\BaseInfo.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\BaseInfos\\Entities\\BaseInfo.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.Domain\\BaseInfos\\Entities\\BaseInfo.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:58:27.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetAuditLogQuery.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\AuditLogs\\Queries\\GetAuditLogQuery.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.Domain\\AuditLogs\\Queries\\GetAuditLogQuery.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\AuditLogs\\Queries\\GetAuditLogQuery.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.Domain\\AuditLogs\\Queries\\GetAuditLogQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T13:11:30.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateCustomerCommand.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\Customers\\Commands\\CreateCustomerCommand.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.Application\\Customers\\Commands\\CreateCustomerCommand.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\Customers\\Commands\\CreateCustomerCommand.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.Application\\Customers\\Commands\\CreateCustomerCommand.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAD4vzYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T12:53:06.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateCustomerCommandValidator.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\Customers\\Commands\\CreateCustomerCommandValidator.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.Application\\Customers\\Commands\\CreateCustomerCommandValidator.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\Customers\\Commands\\CreateCustomerCommandValidator.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.Application\\Customers\\Commands\\CreateCustomerCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T12:51:44.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VipReasonTypes.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\Customers\\Enums\\VipReasonTypes.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.Domain\\Customers\\Enums\\VipReasonTypes.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\Customers\\Enums\\VipReasonTypes.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.Domain\\Customers\\Enums\\VipReasonTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T12:49:40.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.Api\\Program.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Api\\Program.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.Api\\Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T12:49:14.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LocationQueryRepository.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Query\\Locations\\LocationQueryRepository.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.DataAccess.Query\\Locations\\LocationQueryRepository.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Query\\Locations\\LocationQueryRepository.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.DataAccess.Query\\Locations\\LocationQueryRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T12:13:38.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerAddress.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\Customers\\Entities\\CustomerAddress.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.Domain\\Customers\\Entities\\CustomerAddress.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\Customers\\Entities\\CustomerAddress.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.Domain\\Customers\\Entities\\CustomerAddress.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAswDkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T12:13:01.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\Customers\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.Domain\\Customers\\Entities\\Customer.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\Customers\\Entities\\Customer.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.Domain\\Customers\\Entities\\Customer.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAiwHgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T12:12:59.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppController.cs",
+              "DocumentMoniker": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Api\\Controllers\\AppController.cs",
+              "RelativeDocumentMoniker": "NgCrm.BasicInfoService.Api\\Controllers\\AppController.cs",
+              "ToolTip": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Api\\Controllers\\AppController.cs",
+              "RelativeToolTip": "NgCrm.BasicInfoService.Api\\Controllers\\AppController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowC8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T08:14:30.968Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

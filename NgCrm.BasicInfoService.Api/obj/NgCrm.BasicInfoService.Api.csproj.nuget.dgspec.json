@@ -1,0 +1,728 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Api\\NgCrm.BasicInfoService.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Api\\NgCrm.BasicInfoService.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Api\\NgCrm.BasicInfoService.Api.csproj",
+        "projectName": "NgCrm.BasicInfoService.Api",
+        "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Api\\NgCrm.BasicInfoService.Api.csproj",
+        "packagesPath": "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "\\\\cshqv20\\CSHQ-ProfileRedirection-A\\h.akbarzadeh\\Application Data\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj"
+              },
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Command\\NgCrm.BasicInfoService.DataAccess.Command.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Command\\NgCrm.BasicInfoService.DataAccess.Command.csproj"
+              },
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Query\\NgCrm.BasicInfoService.DataAccess.Query.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Query\\NgCrm.BasicInfoService.DataAccess.Query.csproj"
+              },
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Integration\\NgCrm.BasicInfoService.Integration.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Integration\\NgCrm.BasicInfoService.Integration.csproj"
+              },
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Mapping\\NgCrm.BasicInfoService.Mapping.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Mapping\\NgCrm.BasicInfoService.Mapping.csproj"
+              },
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Proxy\\NgCrm.BasicInfoService.Proxy.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Proxy\\NgCrm.BasicInfoService.Proxy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.5.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.HierarchyId": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyModel": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.22.1-Preview.1, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Seq.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "System.DirectoryServices.Protocols": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj",
+        "projectName": "NgCrm.BasicInfoService.Application",
+        "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\NgCrm.BasicInfoService.Application.csproj",
+        "packagesPath": "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "\\\\cshqv20\\CSHQ-ProfileRedirection-A\\h.akbarzadeh\\Application Data\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj"
+              },
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Mapping\\NgCrm.BasicInfoService.Mapping.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Mapping\\NgCrm.BasicInfoService.Mapping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Command\\NgCrm.BasicInfoService.DataAccess.Command.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Command\\NgCrm.BasicInfoService.DataAccess.Command.csproj",
+        "projectName": "NgCrm.BasicInfoService.DataAccess.Command",
+        "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Command\\NgCrm.BasicInfoService.DataAccess.Command.csproj",
+        "packagesPath": "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Command\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "\\\\cshqv20\\CSHQ-ProfileRedirection-A\\h.akbarzadeh\\Application Data\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Query\\NgCrm.BasicInfoService.DataAccess.Query.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Query\\NgCrm.BasicInfoService.DataAccess.Query.csproj",
+        "projectName": "NgCrm.BasicInfoService.DataAccess.Query",
+        "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Query\\NgCrm.BasicInfoService.DataAccess.Query.csproj",
+        "packagesPath": "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.DataAccess.Query\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "\\\\cshqv20\\CSHQ-ProfileRedirection-A\\h.akbarzadeh\\Application Data\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj",
+        "projectName": "NgCrm.BasicInfoService.Domain",
+        "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj",
+        "packagesPath": "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "\\\\cshqv20\\CSHQ-ProfileRedirection-A\\h.akbarzadeh\\Application Data\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.HierarchyId": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Integration\\NgCrm.BasicInfoService.Integration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Integration\\NgCrm.BasicInfoService.Integration.csproj",
+        "projectName": "NgCrm.BasicInfoService.Integration",
+        "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Integration\\NgCrm.BasicInfoService.Integration.csproj",
+        "packagesPath": "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Integration\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "\\\\cshqv20\\CSHQ-ProfileRedirection-A\\h.akbarzadeh\\Application Data\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Mapping\\NgCrm.BasicInfoService.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Mapping\\NgCrm.BasicInfoService.Mapping.csproj",
+        "projectName": "NgCrm.BasicInfoService.Mapping",
+        "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Mapping\\NgCrm.BasicInfoService.Mapping.csproj",
+        "packagesPath": "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "\\\\cshqv20\\CSHQ-ProfileRedirection-A\\h.akbarzadeh\\Application Data\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj"
+              },
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Proxy\\NgCrm.BasicInfoService.Proxy.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Proxy\\NgCrm.BasicInfoService.Proxy.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Proxy\\NgCrm.BasicInfoService.Proxy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Proxy\\NgCrm.BasicInfoService.Proxy.csproj",
+        "projectName": "NgCrm.BasicInfoService.Proxy",
+        "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Proxy\\NgCrm.BasicInfoService.Proxy.csproj",
+        "packagesPath": "C:\\Users\\h.akbarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Proxy\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "\\\\cshqv20\\CSHQ-ProfileRedirection-A\\h.akbarzadeh\\Application Data\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj": {
+                "projectPath": "D:\\akbarzadeh\\NG-CRM\\Projects\\ngcrm-basicinfoservice\\NgCrm.BasicInfoService.Domain\\NgCrm.BasicInfoService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[35.6.3, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.4.0, )"
+            },
+            "System.DirectoryServices.Protocols": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

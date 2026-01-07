@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="Organizations\Services\**" />
+		<EmbeddedResource Remove="Organizations\Services\**" />
+		<None Remove="Organizations\Services\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Roles\Services\" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation" Version="12.0.0" />
+		<PackageReference Include="MediatR" Version="12.4.1" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="Mapster" Version="7.4.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\NgCrm.BasicInfoService.Domain\NgCrm.BasicInfoService.Domain.csproj" />
+		<ProjectReference Include="..\NgCrm.BasicInfoService.Mapping\NgCrm.BasicInfoService.Mapping.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="Goldiran.Framework.Application">
+			<HintPath>..\FrameworkDlls\Goldiran.Framework.Application.dll</HintPath>
+		</Reference>
+		<Reference Include="Goldiran.Framework.Domain">
+			<HintPath>..\FrameworkDlls\Goldiran.Framework.Domain.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+</Project>

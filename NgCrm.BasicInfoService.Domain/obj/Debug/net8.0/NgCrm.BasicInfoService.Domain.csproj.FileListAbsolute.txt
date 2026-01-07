@@ -1,0 +1,16 @@
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\bin\Debug\net8.0\NgCrm.BasicInfoService.Domain.deps.json
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\bin\Debug\net8.0\NgCrm.BasicInfoService.Domain.dll
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\bin\Debug\net8.0\NgCrm.BasicInfoService.Domain.pdb
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\bin\Debug\net8.0\Goldiran.Framework.Application.dll
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\bin\Debug\net8.0\Goldiran.Framework.Domain.dll
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\obj\Debug\net8.0\NgCrm.BasicInfoService.Domain.csproj.AssemblyReference.cache
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\obj\Debug\net8.0\NgCrm.BasicInfoService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\obj\Debug\net8.0\NgCrm.BasicInfoService.Domain.AssemblyInfoInputs.cache
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\obj\Debug\net8.0\NgCrm.BasicInfoService.Domain.AssemblyInfo.cs
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\obj\Debug\net8.0\NgCrm.BasicInfoService.Domain.csproj.CoreCompileInputs.cache
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\obj\Debug\net8.0\EFCoreSqlServerHierarchyId.cs
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\obj\Debug\net8.0\NgCrm.Ba.72E546E9.Up2Date
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\obj\Debug\net8.0\NgCrm.BasicInfoService.Domain.dll
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\obj\Debug\net8.0\refint\NgCrm.BasicInfoService.Domain.dll
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\obj\Debug\net8.0\NgCrm.BasicInfoService.Domain.pdb
+D:\akbarzadeh\NG-CRM\Projects\ngcrm-basicinfoservice\NgCrm.BasicInfoService.Domain\obj\Debug\net8.0\ref\NgCrm.BasicInfoService.Domain.dll

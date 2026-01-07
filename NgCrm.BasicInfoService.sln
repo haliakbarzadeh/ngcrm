@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36127.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgCrm.BasicInfoService.Domain", "NgCrm.BasicInfoService.Domain\NgCrm.BasicInfoService.Domain.csproj", "{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgCrm.BasicInfoService.Application", "NgCrm.BasicInfoService.Application\NgCrm.BasicInfoService.Application.csproj", "{97EEB4E9-3063-42CF-9938-7712A67F58FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgCrm.BasicInfoService.Proxy", "NgCrm.BasicInfoService.Proxy\NgCrm.BasicInfoService.Proxy.csproj", "{BB5D99FE-CD94-4BCC-8611-854A8F6B4D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgCrm.BasicInfoService.DataAccess.Command", "NgCrm.BasicInfoService.DataAccess.Command\NgCrm.BasicInfoService.DataAccess.Command.csproj", "{0B26A42B-0DA7-447A-9CB3-4EB5CDD9B6E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgCrm.BasicInfoService.DataAccess.Query", "NgCrm.BasicInfoService.DataAccess.Query\NgCrm.BasicInfoService.DataAccess.Query.csproj", "{DB65356A-5490-4091-9FF2-DE8290BACDFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgCrm.BasicInfoService.Mapping", "NgCrm.BasicInfoService.Mapping\NgCrm.BasicInfoService.Mapping.csproj", "{AB409DBB-1F4F-4DA2-A111-51B9937D4515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgCrm.BasicInfoService.Api", "NgCrm.BasicInfoService.Api\NgCrm.BasicInfoService.Api.csproj", "{1547014C-6C08-48B1-9D8D-34CE0730AB2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{C7356CE0-3706-454B-AD8D-8FD41D26E4F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FD45A5CF-6183-4E0A-BC10-DAB96EF8356A}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgCrm.BasicInfoService.Integration", "NgCrm.BasicInfoService.Integration\NgCrm.BasicInfoService.Integration.csproj", "{F0CCE74C-F47F-4489-A35B-CFB2D1F9D9EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97EEB4E9-3063-42CF-9938-7712A67F58FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EEB4E9-3063-42CF-9938-7712A67F58FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EEB4E9-3063-42CF-9938-7712A67F58FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EEB4E9-3063-42CF-9938-7712A67F58FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5D99FE-CD94-4BCC-8611-854A8F6B4D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5D99FE-CD94-4BCC-8611-854A8F6B4D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5D99FE-CD94-4BCC-8611-854A8F6B4D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5D99FE-CD94-4BCC-8611-854A8F6B4D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B26A42B-0DA7-447A-9CB3-4EB5CDD9B6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B26A42B-0DA7-447A-9CB3-4EB5CDD9B6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B26A42B-0DA7-447A-9CB3-4EB5CDD9B6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B26A42B-0DA7-447A-9CB3-4EB5CDD9B6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB65356A-5490-4091-9FF2-DE8290BACDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB65356A-5490-4091-9FF2-DE8290BACDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB65356A-5490-4091-9FF2-DE8290BACDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB65356A-5490-4091-9FF2-DE8290BACDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB409DBB-1F4F-4DA2-A111-51B9937D4515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB409DBB-1F4F-4DA2-A111-51B9937D4515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB409DBB-1F4F-4DA2-A111-51B9937D4515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB409DBB-1F4F-4DA2-A111-51B9937D4515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1547014C-6C08-48B1-9D8D-34CE0730AB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1547014C-6C08-48B1-9D8D-34CE0730AB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1547014C-6C08-48B1-9D8D-34CE0730AB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1547014C-6C08-48B1-9D8D-34CE0730AB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CCE74C-F47F-4489-A35B-CFB2D1F9D9EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CCE74C-F47F-4489-A35B-CFB2D1F9D9EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CCE74C-F47F-4489-A35B-CFB2D1F9D9EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CCE74C-F47F-4489-A35B-CFB2D1F9D9EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C6F7AAC-C74A-4C38-A66F-1EA1A79D1BB9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{97EEB4E9-3063-42CF-9938-7712A67F58FD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BB5D99FE-CD94-4BCC-8611-854A8F6B4D36} = {C7356CE0-3706-454B-AD8D-8FD41D26E4F9}
+		{0B26A42B-0DA7-447A-9CB3-4EB5CDD9B6E1} = {C7356CE0-3706-454B-AD8D-8FD41D26E4F9}
+		{DB65356A-5490-4091-9FF2-DE8290BACDFC} = {C7356CE0-3706-454B-AD8D-8FD41D26E4F9}
+		{F0CCE74C-F47F-4489-A35B-CFB2D1F9D9EE} = {C7356CE0-3706-454B-AD8D-8FD41D26E4F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {551EB778-AF34-4831-96EF-776EAF272937}
+	EndGlobalSection
+EndGlobal

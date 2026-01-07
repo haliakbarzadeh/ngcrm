@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NgCrm.BasicInfoService.Domain\NgCrm.BasicInfoService.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Goldiran.Framework.Application">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Goldiran.Framework.AspNetCore">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.AspNetCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Goldiran.Framework.Caching">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Goldiran.Framework.DependencyInjection">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Goldiran.Framework.Domain">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Goldiran.Framework.EFCore">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.EFCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Goldiran.Framework.File">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.File.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

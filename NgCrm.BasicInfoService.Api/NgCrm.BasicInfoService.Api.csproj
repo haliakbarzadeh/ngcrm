@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>7db41439-78c0-42fa-b47d-a06ee1450278</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+	<Target Name="CopyFrameworkDlls" BeforeTargets="Build">
+		<ItemGroup>
+			<SharedDlls Include="\\cshqv27\Special-FileSharing-D\Information Technology\D&amp;A\Goldiran.Framework.Dlls\*.dll" />
+		</ItemGroup>
+ 
+		<Copy SourceFiles="@(SharedDlls)" DestinationFolder="$(SolutionDir)FrameworkDlls\" SkipUnchangedFiles="true" />
+	</Target>
+	
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="MassTransit" Version="8.5.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.5.1" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.19" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Abstractions" Version="9.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.HierarchyId" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="8.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.22.1-Preview.1" />
+    <PackageReference Include="Scrutor" Version="5.0.0" />
+    <PackageReference Include="Seq.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
+    <PackageReference Include="System.DirectoryServices.Protocols" Version="9.0.8" />
+    <PackageReference Include="System.Text.Json" Version="9.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NgCrm.BasicInfoService.Application\NgCrm.BasicInfoService.Application.csproj" />
+    <ProjectReference Include="..\NgCrm.BasicInfoService.DataAccess.Command\NgCrm.BasicInfoService.DataAccess.Command.csproj" />
+    <ProjectReference Include="..\NgCrm.BasicInfoService.DataAccess.Query\NgCrm.BasicInfoService.DataAccess.Query.csproj" />
+    <ProjectReference Include="..\NgCrm.BasicInfoService.Integration\NgCrm.BasicInfoService.Integration.csproj" />
+    <ProjectReference Include="..\NgCrm.BasicInfoService.Mapping\NgCrm.BasicInfoService.Mapping.csproj" />
+    <ProjectReference Include="..\NgCrm.BasicInfoService.Proxy\NgCrm.BasicInfoService.Proxy.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Goldiran.Framework.Application">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Goldiran.Framework.AspNetCore">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.AspNetCore.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Goldiran.Framework.DependencyInjection">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.DependencyInjection.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Goldiran.Framework.Domain">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.Domain.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Goldiran.Framework.EFCore">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.EFCore.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Goldiran.Framework.Integration">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.Integration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.Development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

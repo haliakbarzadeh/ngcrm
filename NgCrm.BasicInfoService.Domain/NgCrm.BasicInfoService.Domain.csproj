@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <Target Name="CopyFrameworkDlls" BeforeTargets="ResolveAssemblyReferences">
+    <ItemGroup>
+      <SharedDlls Include="\\cshqv27\Special-FileSharing-D\Information Technology\D&amp;A\Goldiran.Framework.Dlls\*.dll" />
+    </ItemGroup>
+    <Copy SourceFiles="@(SharedDlls)" DestinationFolder="$(SolutionDir)FrameworkDlls\" SkipUnchangedFiles="true" />
+  </Target>
+  
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Abstractions" Version="9.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.HierarchyId" Version="8.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />    
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BaseInfos\Enums\" />
+    <Folder Include="BaseInfos\Events\" />
+    <Folder Include="Roles\Enums\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Goldiran.Framework.Application">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Goldiran.Framework.Domain">
+      <HintPath>..\FrameworkDlls\Goldiran.Framework.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

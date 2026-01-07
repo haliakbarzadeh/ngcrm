@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="35.6.3" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
+		<PackageReference Include="Mapster" Version="7.4.0" />
+		<PackageReference Include="System.DirectoryServices.Protocols" Version="9.0.8" />
+	</ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\NgCrm.BasicInfoService.Domain\NgCrm.BasicInfoService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
